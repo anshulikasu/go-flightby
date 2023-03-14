@@ -1,0 +1,146 @@
+.cm-footer-container {
+  padding: 50px 0 0;
+  background-color: #183A1D;
+}
+footer p, footer a, footer h3{
+  color: #ddd;
+}
+.cm-menu-ul a:hover {
+  color: #F0A04B;
+}
+.icon-align li {
+  position: relative;
+  padding-left: 30px;
+}
+.icon-align li i {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  color: #ffa900;
+}
+.cm-footer-container .cm-footer-top {
+  padding-bottom: 30px;
+}
+
+.cm-footer-top .cm-footer-logo {
+  margin-bottom: 15px;
+}
+
+.cm-footer-top .cm-footer-col h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.cm-footer-top .cm-footer-col li + li {
+  margin-top: 10px;
+}
+
+.cm-footer-top .cm-footer-col li i {
+  padding-right: 5px;
+}
+
+.cm-footer-top .cm-footer-col li address {
+  font-style: normal;
+  display: inline-block;
+}
+
+.cm-footer-top .cm-footer-col3 li a {
+  display: flex;
+  align-items: center;
+}
+
+.cm-footer-top .cm-footer-col3 li + li {
+  margin-top: 20px;
+}
+
+.cm-footer-container .cm-footer-bottom {
+  padding: 20px 0;
+}
+
+.cm-footer-bottom p {
+  margin-top: 5px;
+}
+
+.cm-footer-bottom p a {
+  padding: 0 15px;
+}
+
+.cm-fixed-footer-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #183A1D;
+  z-index: 99;
+}
+
+.cm-fixed-footer-cta a {
+  font-size: 15px;
+  border-radius: 20px;
+  font-weight: 700;
+  padding: 5px 17px;
+  display: inline-block;
+  background-color: #F0A04B;
+}
+
+.cm-fixed-footer-cta a i {
+  padding-right: 5px;
+}
+.cm-fixed-footer-cta p br{
+  display: none;
+}
+.card-box {
+  padding-top: 20px;
+}
+.card-box img {
+  background: #fff;
+  width: 50px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 5px;
+  margin-right: 9px;
+}
+@media(max-width: 1023px){
+  footer.cm-footer-container {
+      padding: 50px 30px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  body{
+    padding: 0 0 79px;
+  }
+  .cm-footer-top .cm-footer-col {
+    width: 100%;
+  }
+  .cm-fixed-footer-cta p a{
+    margin-top: 5px;
+    display: inline-block;
+  }
+  .cm-fixed-footer-cta p br{
+    display: block;
+  }
+
+  .cm-footer-top .cm-page-center {
+    flex-wrap: wrap;
+  }
+  footer.cm-footer-container {
+      padding: 50px 15px 0;
+  }
+  .cm-footer-top .cm-footer-col h3 {
+      margin-bottom: 8px;
+  }
+  .cm-footer-top .cm-footer-col + .cm-footer-col {
+    margin-top: 25px;
+  }
+  .cm-footer-bottom .cm-flex-type-2{
+    flex-wrap: wrap;
+  }
+}
+@media(max-width: 600px){
+  .cm-fixed-footer-cta p {
+      font-size: 14px;
+  }
+}
